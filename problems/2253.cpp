@@ -27,7 +27,7 @@ int main(){
 		check[t] = 1;
 	}
 
-	memset(dp, 0x0f0f, sizeof(dp));
+	memset(dp, 0x0f, sizeof(dp));
 	int answer = MAX;
 	dp[2][1] = 1;
 	for (int i = 1; i < 150; i++) {
