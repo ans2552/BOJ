@@ -78,9 +78,6 @@ int main() {
     queue<pair<int, int>> q;
     while (Q--) {
         cin >> L;
-
-        // cout << "L : " << L <<'\n';
-
         rotate(L);
         for (int i = 0; i < arrSize; i++) {
             for (int j = 0; j < arrSize; j++) {
